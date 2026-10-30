@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- Эта строка нужна, чтобы сайт правильно выглядел на телефонах -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа «Недра»</title>
+
+    <!-- Шрифты Google Fonts (нужен интернет): Inter и Rubik Mono One -->
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&amp;subset=cyrillic" rel="stylesheet">
+
+    <!-- Подключаем файл со стилями -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- ===================== 1. МЕНЮ ===================== -->
+    <div class="menu">
+        <div class="container">
+            <a class="menu-link" href="#about">О НАС</a>
+            <a class="menu-link" href="#programs">ПРОГРАММЫ</a>
+            <a class="menu-link" href="#courses">КУРСЫ</a>
+            <a class="menu-link" href="#reviews">ОТЗЫВЫ</a>
+        </div>
+    </div>
+
+
+    <!-- ===================== 2. ГЛАВНЫЙ ЭКРАН ===================== -->
+    <div class="hero">
+
+        <!-- витражи слева и справа -->
+        <div class="hero-glass hero-glass-left"></div>
+        <div class="hero-glass hero-glass-right"></div>
+
+        <!-- середина: название и плитка -->
+        <div class="hero-center">
+
+            <div class="hero-title-box">
+                <h1 class="hero-title">недра</h1>
+            </div>
+
+            <!-- плитка: 3 ряда по 5 клеток (on - с картинкой, off - пустая) -->
+            <div class="tiles-row">
+                <div class="tile tile-on"></div>
+                <div class="tile tile-off"></div>
+                <div class="tile tile-on"></div>
+                <div class="tile tile-off"></div>
+                <div class="tile tile-on"></div>
+            </div>
+            <div class="tiles-row">
+                <div class="tile tile-off"></div>
+                <div class="tile tile-on"></div>
+                <div class="tile tile-off"></div>
+                <div class="tile tile-on"></div>
+                <div class="tile tile-off"></div>
+            </div>
+            <div class="tiles-row">
+                <div class="tile tile-on"></div>
+                <div class="tile tile-off"></div>
+                <div class="tile tile-on"></div>
+                <div class="tile tile-off"></div>
+                <div class="tile tile-on"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ===================== 3. О НАС ===================== -->
+    <div class="about" id="about">
+
+        <div class="container">
+
+            <div class="about-label">
+                <h2 class="about-label-text">о нас</h2>
+            </div>
+
+            <div class="about-box about-box-1">
+                <p>мы - недра<br>единственная школа для гномов, где учат добыче драгоценностей</p>
+            </div>
+        </div>
+
+        <!-- полоса на всю ширину экрана -->
+        <div class="band">
+            <h2 class="band-title-mono">почему мы?</h2>
+        </div>
+
+        <div class="container">
+
+            <div class="about-box about-box-2">
+                <p>гномы часто жалуются, что не могут найти работу на шахте из-за нехватки мастерства</p>
+            </div>
+
+            <div class="about-box about-box-3">
+                <p>хочешь стать таким же? тогда нам по пути!</p>
+            </div>
+
+            <!-- фото -->
+            <div class="about-photo"></div>
+        </div>
+
+        <!-- полоса на всю ширину экрана -->
+        <div class="band band-text">
+            <div class="container">
+                <p>благодаря нашей школе более 100 тысяч гномов нашли работу на шахте!</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- звезда-стикер -->
+            <div class="sticker">
+                <p class="sticker-text">ФОТО<br>ВЫПУСКНИКОВ</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ===================== 4. ПРОГРАММЫ ===================== -->
+    <div class="programs" id="programs">
+
+        <div class="band">
+            <h2 class="band-title">наши программы</h2>
+        </div>
+
+        <!-- программа 1 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-photo program-photo-1"></div>
+                <h3 class="card-title card-title-center">методы добычи камней</h3>
+                <p class="card-text card-text-medium">далеко не каждый знает о том, что сортировка, знание основ добычи и истории камней помогает гному в будущем трудоустройстве</p>
+            </div>
+        </div>
+
+        <!-- программа 2 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-photo program-photo-2"></div>
+                <h3 class="card-title card-title-right">семинар по владению киркой</h3>
+                <p class="card-text card-text-medium">курс покажет, что в умелых руках кирка становится другом гному</p>
+            </div>
+        </div>
+
+        <!-- программа 3 -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-photo program-photo-3"></div>
+                <h3 class="card-title">инженерия труб</h3>
+                <p class="card-text">каждый гном научится инженерии водопроводных труб что значительно облегчит его профессиональную деятельность</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ===================== 5. КУРСЫ ===================== -->
+    <div class="courses" id="courses">
+
+        <div class="band">
+            <h2 class="band-title">наши курсы</h2>
+        </div>
+
+        <!-- курс 1: новичок -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-photo course-photo-1"></div>
+                <h3 class="card-title">новичок</h3>
+
+                <div class="course-info">
+                    <div class="course-info-left">
+                        <span class="clock"></span>
+                        <span class="lessons">4 занятия</span>
+                    </div>
+                    <div class="course-info-right">
+                        <span class="price-label">цена:</span>
+                        <!-- СЮДА ВПИШИ ЦЕНУ, например: 1500 золотых -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+
+                <p class="card-text">идеален для тех, кто только начинает свой путь в камневедении<br>в курс входят лекционные и практические занятия об основах добычи камней. при успешном прохождении курса в подарок идёт глоссарий</p>
+            </div>
+        </div>
+
+        <!-- курс 2: продвинутый -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-photo course-photo-2"></div>
+                <h3 class="card-title card-title-center">продвинутый</h3>
+
+                <div class="course-info">
+                    <div class="course-info-left">
+                        <span class="clock"></span>
+                        <span class="lessons">6 занятий</span>
+                    </div>
+                    <div class="course-info-right">
+                        <span class="price-label">цена:</span>
+                        <!-- СЮДА ВПИШИ ЦЕНУ -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+
+                <p class="card-text">курс подходит для тех, кто уже имел опыт взаимодействия с искусством камневедения и готов повышать квалификацию<br>в курс входят занятия в маленьких группах, личный куратор и новые тоннели</p>
+            </div>
+        </div>
+
+        <!-- курс 3: профессионал -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-photo course-photo-3"></div>
+                <h3 class="card-title">профессионал</h3>
+
+                <div class="course-info">
+                    <div class="course-info-left">
+                        <span class="clock"></span>
+                        <span class="lessons">12 занятий</span>
+                    </div>
+                    <div class="course-info-right">
+                        <span class="price-label">цена:</span>
+                        <!-- СЮДА ВПИШИ ЦЕНУ -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+
+                <p class="card-text">курс подойдёт для тех, кто уже обладает значительными навыками в камневедении и хочет освоить что-то новое.<br>в курс входят персональные занятия, новейшие пещеры, а также по завершении курса в подарок идёт кирка нового поколения</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ===================== 6. ОТЗЫВЫ ===================== -->
+    <div class="reviews" id="reviews">
+
+        <div class="band">
+            <h2 class="band-title-mono band-title-big">отзывы о нас</h2>
+        </div>
+
+        <!-- отзыв 1 -->
+        <div class="card review">
+            <div class="review-head">
+                <img class="review-avatar" src="img/avatar-1.png" alt="Гном Гномыч">
+                <div class="review-who">
+                    <h3 class="review-name">ГНОМ ГНОМЫЧ</h3>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p class="review-text">“Благодаря школе я очень повысил свои знания о камневедении. 150 лет я не мог найти работу, однако благодаря “Недре” меня взяли на шахту мечты после первого собеседования! Однозначно рекомендую.”</p>
+                <p class="review-date">12 июля</p>
+            </div>
+        </div>
+
+        <!-- отзыв 2 -->
+        <div class="card review">
+            <div class="review-head">
+                <img class="review-avatar" src="img/avatar-2.png" alt="Ерёма Шапочник">
+                <div class="review-who">
+                    <h3 class="review-name">ЕРЁМА ШАПОЧНИК</h3>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p class="review-text">“Отправил на курс за 5000 золотых сына, чтобы тот нашёл высокооплачиваемую работу. Обучение прошло даже лучше, чем мы ожидали, теперь сын работает со мной на одной шахте!”</p>
+                <p class="review-date">20 января</p>
+            </div>
+        </div>
+
+        <!-- отзыв 3 -->
+        <div class="card review">
+            <div class="review-head">
+                <img class="review-avatar" src="img/avatar-3.png" alt="Камень Шапочник">
+                <div class="review-who">
+                    <h3 class="review-name">КАМЕНЬ ШАПОЧНИК</h3>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p class="review-text">“Впервые пришёл в школу по совету отца, так как были проблемы с трудоустройством. Обучение было очень полезным и насыщенным, благодарности всему преподавательскому составу!”</p>
+                <p class="review-date">3 мая</p>
+            </div>
+        </div>
+
+        <!-- отзыв 4 -->
+        <div class="card review">
+            <div class="review-head">
+                <img class="review-avatar" src="img/avatar-4.png" alt="Кирка Пещеровна">
+                <div class="review-who">
+                    <h3 class="review-name">Кирка пещеровна</h3>
+                    <p class="review-stars">★★★★★</p>
+                </div>
+            </div>
+            <div class="review-body">
+                <p class="review-text">“Решилась взять курс за 1500 золотых для повышения квалификации, спустя всего две недели повысили до начальника кварца!”</p>
+                <p class="review-date">7 апреля</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ===================== 7. ПРИЗЫВ + ПОДВАЛ ===================== -->
+    <div class="footer">
+
+        <!-- призыв к действию -->
+        <div class="container cta">
+            <h2 class="cta-title">Школа “Недра”</h2>
+            <h2 class="cta-title">Знания начинаются здесь</h2>
+            <p class="cta-text">освой искусство поиска самоцветов и становись частью нашей подземной команды!</p>
+            <a class="cta-button" href="#about">присоединиться к школе “недра” &rarr;</a>
+        </div>
+
+        <!-- скидка за друга -->
+        <div class="friend">
+            <div class="container">
+                <div class="friend-discount">-20%</div>
+                <div class="friend-info">
+                    <h3 class="friend-title">Приведи друга!</h3>
+                    <p class="friend-text">Учитесь вместе и получайте скидку до 20%</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- нижняя часть -->
+        <div class="footer-bottom">
+            <div class="container">
+
+                <h3 class="footer-title">Школа “Недра”</h3>
+                <p class="footer-slogan">Находим сокровища.<br>Открываем таланты.</p>
+
+                <h3 class="footer-title footer-title-sponsors">наши спонсоры</h3>
+
+                <div class="sponsors">
+                    <div class="sponsor">Гильдия рубинов</div>
+                    <div class="sponsor">союз шахтёров</div>
+                    <div class="sponsor">КристаллПром</div>
+                </div>
+
+            </div>
+
+            <p class="copyright">Школа “Недра”. Все права защищены.</p>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
